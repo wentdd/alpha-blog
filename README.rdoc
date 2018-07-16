@@ -1,1 +1,1 @@
-This is the repository of the first alpha-blog app of the course.
+This is the repository of the first alpha-blog app of the course.git
