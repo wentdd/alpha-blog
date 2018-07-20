@@ -52,3 +52,5 @@ group :production do
   gem 'rails_12factor'
   
 end
+source "https://rubygems.org"
+ruby "2.3.4"
