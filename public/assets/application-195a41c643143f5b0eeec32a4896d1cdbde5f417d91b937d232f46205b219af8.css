@@ -1,0 +1,69 @@
+/* line 1, /home/ubuntu/rails_projects/alpha-blog/app/assets/stylesheets/page.css.scss */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* line 8, /home/ubuntu/rails_projects/alpha-blog/app/assets/stylesheets/page.css.scss */
+body {
+  background: url(/assets/background2-02655998c7f76be30b6b42b999ddac2822baea2429f7a4d51181af7c086f484b.jpg);
+  background-color: gray;
+  background-size: cover;
+  margin-left: 20;
+  margin-right: 20;
+  margin-bottom: 100px;
+}
+
+/* line 17, /home/ubuntu/rails_projects/alpha-blog/app/assets/stylesheets/page.css.scss */
+h1 {
+  color: White;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+/* line 25, /home/ubuntu/rails_projects/alpha-blog/app/assets/stylesheets/page.css.scss */
+p {
+  color: white;
+  font-size: 20px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+/* line 35, /home/ubuntu/rails_projects/alpha-blog/app/assets/stylesheets/page.css.scss */
+footer {
+  height: 100px;
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+/* line 51, /home/ubuntu/rails_projects/alpha-blog/app/assets/stylesheets/page.css.scss */
+footer:hover {
+  color: yellow;
+}
+
+/* visited link */
+/* line 55, /home/ubuntu/rails_projects/alpha-blog/app/assets/stylesheets/page.css.scss */
+footer:visited {
+  color: yellow;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
