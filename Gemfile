@@ -6,6 +6,8 @@ gem 'puma'
 gem 'rails', '4.2.8'
 # Use sqlite3 as the database for Active Record
 
+# use Post-Gress database
+#gem 'pg' 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -33,7 +35,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
   
- gem 'pg'  
+#gem 'rails_12factor' 
 
 
 group :development do
@@ -46,7 +48,7 @@ group :development do
 end
 
 group :production do
-  #gem 'pg'
+  gem 'pg', '~> 0.20'
   gem 'rails_12factor'
   
 end
